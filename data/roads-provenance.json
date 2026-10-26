@@ -1,0 +1,17 @@
+{
+  "source": "Natural Earth 1:10m roads",
+  "version": "5.1.2",
+  "commit": "f1890d9f152c896d250a77557a5751a93d494776",
+  "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_roads.geojson",
+  "license": "public domain",
+  "rawSha256": "66a0c7b438e92fd124822cc5921cfa11042f48c294ade5e0f03f2c6640fd0248",
+  "derivedSha256": "15297818bf544142059402509f0a35b82b4d49c247962a469e43bed258f62340",
+  "bounds": [
+    33,
+    29,
+    43,
+    38
+  ],
+  "features": 1226,
+  "purpose": "Generalized reference roads for display; not navigation or movement authority. Local city streets and houses are fictional miniatures."
+}

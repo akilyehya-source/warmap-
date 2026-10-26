@@ -1,0 +1,3 @@
+Made with Natural Earth. All imported Natural Earth data are public domain. https://www.naturalearthdata.com/about/terms-of-use/
+Boundary perspective: Natural Earth v5.1.2 default de facto overview; not current control or endorsement of claims. Effective date unknown.
+Gameplay cells, formations and values are fictional original scenario content.
