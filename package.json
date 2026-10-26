@@ -1,0 +1,50 @@
+{
+  "name": "frontlines",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "data:prepare": "node scripts/data/prepare.ts",
+    "data:validate": "node scripts/data/validate.ts",
+    "data:roads": "node scripts/data/roads.ts",
+    "data:world": "node scripts/data/world.ts",
+    "data:world:validate": "node scripts/data/world.ts --validate",
+    "data:campaign": "node scripts/data/campaign.mjs",
+    "data:campaign:validate": "node scripts/data/campaign.mjs --validate",
+    "test:stress": "tsx scripts/stress.ts",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@turf/bbox-clip": "7.4.0",
+    "@turf/boolean-point-in-polygon": "7.4.0",
+    "idb": "8.0.4",
+    "lucide-react": "1.59.0",
+    "maplibre-gl": "6.14.0",
+    "proj4": "2.22.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "zod": "4.6.7",
+    "zustand": "5.0.15"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/geojson": "7946.0.16",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "fake-indexeddb": "6.2.6",
+    "oxlint": "^1.81.0",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "5.0.5"
+  }
+}
